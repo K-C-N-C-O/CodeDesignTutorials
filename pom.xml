@@ -12,6 +12,8 @@
         <module>tutorials-2.1-0</module>
         <module>tutorials-2.1-1</module>
         <module>tutorials-2.2-0</module>
+        <module>tutorials-2.3-0</module>
+        <module>tutorials-2.3-1</module>
     </modules>
 
     <properties>
