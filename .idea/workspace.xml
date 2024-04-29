@@ -4,14 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6696a572-46d4-4681-b282-73447c4b8357" name="Changes" comment="feat:开闭原则">
-      <change afterPath="$PROJECT_DIR$/tutorials-2.3-0/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tutorials-2.3-0/src/main/java/cn/kcnco/design/CashCard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tutorials-2.3-0/src/main/java/cn/kcnco/design/CreditCard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tutorials-2.3-1/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tutorials-2.3-1/src/main/java/cn/kcnco/design/BankCard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tutorials-2.3-1/src/main/java/cn/kcnco/design/CashCard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tutorials-2.3-1/src/main/java/cn/kcnco/design/CreditCard.java" afterDir="false" />
+    <list default="true" id="6696a572-46d4-4681-b282-73447c4b8357" name="Changes" comment="feat:里氏替换原则">
+      <change afterPath="$PROJECT_DIR$/tutorials-2.4-0/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials-2.4-0/src/main/java/cn/kcnco/design/Principal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials-2.4-0/src/main/java/cn/kcnco/design/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials-2.4-0/src/main/java/cn/kcnco/design/Teacher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials-2.4-1/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials-2.4-1/src/main/java/cn/kcnco/design/Principal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials-2.4-1/src/main/java/cn/kcnco/design/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorials-2.4-1/src/main/java/cn/kcnco/design/Teacher.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
@@ -62,6 +63,7 @@
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
     "jdk.selected.JAVA_MODULE": "17 (2)",
+    "last_opened_file_path": "D:/code/CodeDesignTutorials/tutorials-2.4-1/src/main/java/cn/kcnco/design",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -70,6 +72,12 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\code\CodeDesignTutorials\tutorials-2.4-1\src\main\java\cn\kcnco\design" />
+      <recent name="D:\code\CodeDesignTutorials\tutorials-2.4-0\src\main\java\cn\kcnco\design" />
+    </key>
+  </component>
   <component name="RunManager" selected="JUnit.ApiTest.test_CalculateAreaExt">
     <configuration name="ApiTest (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cn.kcnco.design.test.ApiTest" />
@@ -129,7 +137,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1714383405045</updated>
-      <workItem from="1714383406200" duration="6466000" />
+      <workItem from="1714383406200" duration="8094000" />
     </task>
     <task id="LOCAL-00001" summary="feat:单一职责原则">
       <option name="closed" value="true" />
@@ -147,7 +155,15 @@
       <option name="project" value="LOCAL" />
       <updated>1714387147817</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="feat:里氏替换原则">
+      <option name="closed" value="true" />
+      <created>1714394295959</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1714394295959</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -156,6 +172,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="feat:单一职责原则" />
     <MESSAGE value="feat:开闭原则" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat:开闭原则" />
+    <MESSAGE value="feat:里氏替换原则" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat:里氏替换原则" />
   </component>
 </project>
